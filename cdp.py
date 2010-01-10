@@ -33,5 +33,6 @@ def hex2ip(hex):
 
 m= M(host='172.30.101.11', community='RO')
 for i in m.cdpCacheDevicePort:
-    print m.ifDescr[i[0]],"-",m.cdpCacheDeviceId[i],m.cdpCacheDevicePort[i],m.cdpCachePlatform[i],hex2ip(m.cdpCacheAddress[i].__str__())
+    print m.ifDescr[i[0]],"-",m.cdpCacheDeviceId[i],m.cdpCacheDevicePort[i],
+    print m.cdpCachePlatform[i],hex2ip(m.cdpCacheAddress[i].__str__())
 
