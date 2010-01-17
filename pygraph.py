@@ -12,12 +12,13 @@ lines.pop()
 
 
 import pygraphviz as pgv
-graph = pgv.AGraph()
+graph = pgv.AGraph(directed=True)
 graph.graph_attr['overlap'] = 'scale'
 graph.graph_attr['ratio'] = 'fill'
 graph.graph_attr['concentrate'] = 'true'
 
-graph.node_attr['fontsize'] = '16'
+graph.node_attr['fontsize'] = '14'
+graph.graph_attr['rankdir'] = 'LR'
 #graph.graph_attr['splines'] = 'true'
 
 
@@ -41,16 +42,16 @@ for line in lines:
    graph.add_node(replace_special_chars(left_dev), label=left_dev, shape='box')
    graph.add_node(replace_special_chars(left_dev + left_port), label=left_port)
 
-   graph.add_edge(replace_special_chars(left_dev),replace_special_chars(left_dev + left_port), weight='10')
+   graph.add_edge(replace_special_chars(left_dev),replace_special_chars(left_dev + left_port), weight='1')
 
 
    graph.add_node(replace_special_chars(right_dev), label=right_dev,shape='box')
    graph.add_node(replace_special_chars(right_dev + right_port), label=right_port)
 
-   graph.add_edge(replace_special_chars(right_dev), replace_special_chars(right_dev + right_port), weight='10')
+   graph.add_edge(replace_special_chars(right_dev + right_port), replace_special_chars(right_dev), weight='1')
 
 
-   graph.add_edge(replace_special_chars(left_dev + left_port), replace_special_chars(right_dev + right_port), weight='2')
+   graph.add_edge(replace_special_chars(left_dev + left_port), replace_special_chars(right_dev + right_port), weight='1')
 
    #graph.add_edge(replace_special_chars(left_dev),replace_special_chars(right_dev))
 
@@ -58,4 +59,4 @@ for line in lines:
 
 #print graph.string()
 graph.layout(prog='dot')
-graph.draw('../out.pdf')
+graph.draw('../out.svg')
