@@ -2,17 +2,17 @@ Cyrillic	Scholarly	ALA-LC	British	BGN/PCGN	ISO 9	National	French	German
 А а 	a 	a 	a 	a 	a 	a 	a 	a
 Б б 	b 	b 	b 	b 	b 	b 	b 	b
 В в 	v 	v 	v 	v 	v 	v 	v 	w
-Г г 	h 	h 	g 	h 	g 	h, gh¹ 	h 	h
+Г г 	h 	h 	g 	h 	g 	h, gh 	h 	h
 Ґ ґ 	g 	g 	g 	g 	g̀ 	g 	g 	g
 Д д 	d 	d 	d 	d 	d 	d 	d 	d
 Е е 	e 	e 	e 	e 	e 	e 	e 	e
-Є є 	je 	i͡e 	ye 	ye 	ê 	ie, ye² 	ie 	je
+Є є 	je 	i͡e 	ye 	ye 	ê 	ie, ye 	ie 	je
 Ж ж 	ž 	z͡h 	zh 	zh 	ž 	zh 	j 	sh
 З з 	z 	z 	z 	z 	z 	z 	z 	s
 И и 	y 	y 	y 	y 	i 	y 	y 	y
 І і 	i 	i 	i 	i 	ì 	i 	i 	i
-Ї ї 	ji (ï) 	ï 	ï 	yi 	ï 	i, yi² 	ï 	ji
-Й й 	j 	ĭ 	ĭ 	y 	j 	i, y² 	y 	j
+Ї ї 	ji 	ï 	ï 	yi 	ï 	i, yi 	ï 	ji
+Й й 	j 	ĭ 	ĭ 	y 	j 	i, y 	y 	j
 К к 	k 	k 	k 	k 	k 	k 	k 	k
 Л л 	l 	l 	l 	l 	l 	l 	l 	l
 М м 	m 	m 	m 	m 	m 	m 	m 	m
@@ -29,7 +29,7 @@ Cyrillic	Scholarly	ALA-LC	British	BGN/PCGN	ISO 9	National	French	German
 Ч ч 	č 	ch 	ch 	ch 	č 	ch 	tch 	tsch
 Ш ш 	š 	sh 	sh 	sh 	š 	sh 	ch 	sch
 Щ щ 	šč 	shch 	shch 	shch 	ŝ 	sch 	chtch 	schtsch
-Ь ь 	′ 	′ 	′ 	’ 	′ 	’ 	– 	–
-Ю ю 	ju 	i͡u 	yu 	yu 	û 	iu, yu² 	iou 	ju
-Я я 	ja 	i͡a 	ya 	ya 	â 	ia, ya² 	ia 	ja
-’ ’ 	- (″) 	- 	″ 	” 	’ 	” 	– 	–
+Ь ь 	′ 	′ 	′ 	’ 	′ 	’ 	 	
+Ю ю 	ju 	i͡u 	yu 	yu 	û 	iu, yu 	iou 	ju
+Я я 	ja 	i͡a 	ya 	ya 	â 	ia, ya 	ia 	ja
+’ ’ 	 	 	″ 	” 	’ 	” 	 	
